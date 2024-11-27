@@ -172,7 +172,7 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',True))
 if HAS_SSL:
-    URL = "https://sure-lavinia-movbotbyibm-540f92bf.koyeb.app/".format(FQDN)
+    URL = "https://husky-chere-movbotbyibm-421f87f2.koyeb.app/".format(FQDN)
 else:
     URL = "http://sure-lavinia-movbotbyibm-540f92bf.koyeb.app/".format(FQDN)
 
